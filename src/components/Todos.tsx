@@ -29,7 +29,7 @@ const Todos: React.FC = () => {
         <option value="Все задачи" onClick={() => { fetchTodos(); setNotDone("Все задачи") }}>Все задачи</option>
         <option value="Выполненые" onClick={() => { sortByDone(true); setNotDone("Выполненые") }}>Выполненые</option>
         <option value="В работе" onClick={() => { sortByNotDone(false); setNotDone("В работе") }}>В работе</option>
-        <option value="В избранном" onClick={() => { sortByStarred(true, true); setNotDone("В избранном") }}>В избранном</option>
+        <option value="В избранном" onClick={() => { sortByStarred(false, true); setNotDone("В избранном") }}>В избранном</option>
       </select>
       {(todos.length === 0) ? <h1>Список задач пуст</h1> :
         todos.map((i, index) =>
