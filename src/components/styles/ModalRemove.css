@@ -1,0 +1,68 @@
+.modal {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.modal.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modalContent {
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+    background: white;
+    width: 550px;
+    height: 42%;
+    transform: scale(0.5);
+    transition: 0.4s all;
+}
+
+.modalContent.active {
+    transform: scale(1);
+}
+
+.closeBut {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    height: 45px;
+    width: 45px;
+    background: white;
+    border: 3px solid lavender;
+    border-radius: 20px;
+    font-size: large;
+}
+
+.butsBlock {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.buts {
+    width: 40%;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: none;
+    border: 2px solid rgb(237, 196, 255);
+}
+
+.buts:hover {
+    background: rgb(243, 214, 255);
+}

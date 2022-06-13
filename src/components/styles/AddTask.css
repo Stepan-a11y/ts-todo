@@ -1,0 +1,26 @@
+.cont {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 45px;
+    margin-top: 80px;
+}
+
+.inp {
+    width: 80%;
+    padding-left: 20px;
+    font-size: 18px;
+    border: 3px solid rgb(209, 143, 245);
+    border-radius: 10px 0 0 10px;
+}
+
+.but {
+    width: 20%;
+    border: 1px solid rgb(209, 143, 245);
+    background: rgb(209, 143, 245);
+    border-radius: 0 10px 10px 0;
+}
+
+.but:hover {
+    background: rgb(195, 99, 247);
+}

@@ -1,0 +1,54 @@
+.container {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.select {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-left: 30px;
+    width: 30%;
+    height: 40px;
+    background: none;
+    border: 3px solid rgb(209, 143, 245);
+    border-radius: 20px;
+}
+
+.wrapBlock {
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    border: 3px solid rgb(209, 143, 245);
+    margin-bottom: 20px;
+}
+
+.titleBlock {
+    width: 70%;
+    margin-left: 40px;
+}
+
+.starredBlock {
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuBlock {
+    display: flex;
+    width: 15%;
+    margin-right: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleWork {
+    font-size: 24px;
+    color: rgb(212, 89, 89);
+}
+
+
+.titleDone {
+    font-size: 24px;
+    color: rgb(90, 204, 84);
+}
