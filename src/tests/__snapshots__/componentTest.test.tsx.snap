@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Снапшот кнопки в компоненте AddTask 1`] = `
+<input
+  class="but"
+  disabled=""
+  type="button"
+  value="Добавить"
+/>
+`;
